@@ -37,8 +37,8 @@ end
 def get_english_meaning(path, emoticon)
   # code goes here
   data = load_library(path)
-  if data[:get_meaning].has_key?(emoticon)
-    data[:get_meaning][emoticon]
+  if data["get_meaning"].has_key?(emoticon)
+    data["get_meaning"][emoticon]
   else
     "Sorry, that emoticon was not found"
   end
