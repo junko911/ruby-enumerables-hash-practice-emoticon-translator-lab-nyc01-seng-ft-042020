@@ -46,5 +46,5 @@ def get_english_meaning(path, emoticon)
   
 end
 
-get_meaning()
+get_meaning("./lib/emoticons.yml")
 
