@@ -37,7 +37,6 @@ end
 def get_english_meaning(path, emoticon)
   # code goes here
   data = load_library(path)
-  pp data
   if data[:get_meaning].include? (emoticon)
     data[:get_meaning][emoticon]
   else
